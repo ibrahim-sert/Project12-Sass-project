@@ -5,11 +5,17 @@
   box-sizing: border-box;
 }
 
-.link-style a, footer.middle a, footer.vertical .social-icons a, footer.horizontal a {
+.link-style a,
+footer.middle a,
+footer.vertical .social-icons a,
+footer.horizontal a {
   padding: 0.4rem;
   transition: all 1s;
 }
-.link-style a:hover, footer.middle a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
+.link-style a:hover,
+footer.middle a:hover,
+footer.vertical .social-icons a:hover,
+footer.horizontal a:hover {
   color: #ff652f;
 }
 
@@ -152,7 +158,12 @@ footer.middle {
 .about-bgImg-container {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.9),
+      rgba(39, 39, 39, 0.3)
+    ),
+    url(../img/baslik.png);
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -193,7 +204,12 @@ footer.middle {
 .contact-bgImg-container {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.9),
+      rgba(39, 39, 39, 0.3)
+    ),
+    url(../img/baslik.png);
   background-position: center center;
   background-size: cover;
 }
@@ -227,7 +243,7 @@ footer.middle {
 }
 
 .home-bgImg-container {
-  background-image: url(../../img/model-1.jpg);
+  background-image: url(../img/baslik.png);
   height: 100vh;
   background-position: center center;
   background-size: cover;
@@ -236,7 +252,12 @@ footer.middle {
 .home-bgImg-container {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.9),
+      rgba(39, 39, 39, 0.3)
+    ),
+    url(../img/baslik.png);
   background-position: center center;
   background-size: cover;
 }
@@ -262,7 +283,12 @@ footer.middle {
 .project-bgImg-container {
   height: 40vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.9),
+      rgba(39, 39, 39, 0.3)
+    ),
+    url(../img/baslik.png);
   background-position: center center;
   background-size: cover;
   display: flex;
